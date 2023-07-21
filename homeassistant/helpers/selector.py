@@ -541,7 +541,7 @@ class ConversationAgentSelectorConfig(TypedDict, total=False):
 
 
 @SELECTORS.register("conversation_agent")
-class COnversationAgentSelector(Selector[ConversationAgentSelectorConfig]):
+class ConversationAgentSelector(Selector[ConversationAgentSelectorConfig]):
     """Selector for a conversation agent."""
 
     selector_type = "conversation_agent"
